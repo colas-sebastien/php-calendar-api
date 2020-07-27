@@ -3,4 +3,4 @@ php-calendar:
   ports:
     - 80:80
   volumes:
-    - .:/var/www/html/
+    - web:/var/www/html/
