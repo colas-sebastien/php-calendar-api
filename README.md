@@ -19,3 +19,6 @@ git push heroku master
 heroku ps:scale web=1
 heroku open
 ```
+## Test it
+To test you application you need to make an HTTP GET request on /calendar/YYYY/MM where YYYY is the year on 4 digits and MM is the mont on 2 digits.
+
